@@ -1,1 +1,1 @@
-Model statistics are stored in "(model)/rhop_(density)/x/stats.plt", where columns correspond to time, mean displacement, variance, skewness, and kurtosis.
+Model statistics are stored in "(model)/rhop_(density)/x/stats.plt", where columns correspond to time, mean displacement, variance, skewness, and kurtosis.  
