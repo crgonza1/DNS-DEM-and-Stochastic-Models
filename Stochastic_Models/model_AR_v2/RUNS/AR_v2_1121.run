@@ -1,0 +1,15 @@
+#!/bin/csh
+#$ -M cgonza13@nd.edu
+#$ -m n
+
+# The MATLABPATH variable is set in the Matlab script to add additional
+# directories to the internal search paths.
+
+setenv MATLABPATH /scratch365/cgonza13/Upscaling_models/model_AR_v2
+
+cd /scratch365/cgonza13/Upscaling_models/model_AR_v2
+
+module load matlab/8.3
+
+matlab < main_AR_v2_1121.m
+#matlab -nodisplay -nosplash < main_AR_v2_1121.m

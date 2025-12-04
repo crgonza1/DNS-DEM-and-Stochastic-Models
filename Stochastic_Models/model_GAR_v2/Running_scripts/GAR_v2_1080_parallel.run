@@ -1,0 +1,14 @@
+#!/bin/csh
+#$ -q long
+#$ -pe smp 16
+
+setenv MATLABPATH /scratch365/cgonza13/Upscaling_models/model_GAR_v2
+
+cd /scratch365/cgonza13/Upscaling_models/model_GAR_v2
+
+module load matlab/8.3
+
+# The MATLABPATH variable is set in the Matlab script to add additional
+# directories to the internal search paths.
+
+matlab -nodisplay -nosplash < main_GAR_v2_1080.m

@@ -1,0 +1,1 @@
+Las distintas versiones son algoritmos con diferentes enfoques. Cada nueva versión es más eficiente que la anterior. Actualmente la versión 5 es la que se está copiada en la carpeta UTM.
