@@ -1,1 +1,22 @@
-Model statistics are stored in "(model)/rhop_(density)/x/stats.plt", where columns correspond to time, mean displacement, variance, skewness, and kurtosis.  
+DEM-DNS:
+Statistics are stored in "DNS-DEM/rhop_(density)/part_dispersion.txt", where columns correspond to 
+- time
+- mean displacement in x
+- mean displacement in y
+- variance in x
+- variance in y
+- skewness in x
+- skewness in y
+- kurtosisin x
+- kurtosisin y
+
+
+Upscaled models:
+Model statistics are stored in "(model)/rhop_(density)/x/stats.plt", where columns correspond to: 
+- time
+- mean displacement
+- variance
+- skewness
+- kurtosis
+
+
